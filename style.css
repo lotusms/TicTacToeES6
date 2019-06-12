@@ -1,0 +1,46 @@
+.container {
+  width: 380px;
+  height: 380px;
+  margin: 60 auto;
+  text-align: center;
+}
+.board {
+  text-align: center;
+  height: 380px;
+  margin-bottom: 50px;
+}
+
+.board div {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+}
+
+#cell1,
+#cell2,
+#cell3,
+#cell4,
+#cell5,
+#cell6 {
+  border-bottom: 8px solid #000;
+}
+#cell3,
+#cell6,
+#cell9,
+#cell2,
+#cell5,
+#cell8 {
+  border-left: 8px solid #000;
+}
+
+#message {
+  font-size: 43px;
+  color: red;
+}
+
+.green {
+  color: green;
+}
