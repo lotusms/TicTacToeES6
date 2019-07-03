@@ -81,6 +81,7 @@ const opponent = () => {
 const clickEvnt = e => {
   //capture the id and pass it as an index, and the x as player
   turn(idCapture(e.target), 'x');
+  console.log(x);
   // check if the game has ended
   if (!checkWin()) {
     opponent();
